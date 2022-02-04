@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIKODIMOS'S first website</title>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+<div class=" text-box">
+    <h1>ABYSSINIA UNIVERSITY</h1>
+    <p>making website is now one of the most interesting thing that I dreamed to do that.i wanna be a software enginneer.<br>so i am getting through it.</p>
+    <a href="" class="hero-btn">CHECK my website and my initial work if you are intterested</a>
+
+</div>
+
+</section>
+
+<section style="width: 80%; margin: auto; text-align: center;padding-top: 100px;">
+    <h1 style="font-size: 36px; font-weight: 600;">Courses We Offer</h1>
+    <p style="color: #777; font-size: 14px; font-weight: 300;line-height: 22px; padding: 10px;">Lorem ipsum dolor sit amet, consectetur elit.</p>
+    <div style="margin: 5%;display: flex;justify-content: space-between;">
+        <div style="flex-basis:31%; background: #fff3f3; border-radius: 50px; margin-bottom: 5%; padding: 20px 12px; box-sizing: border-box;">
+            <h3 style="text-align: center; font-weight: 600; margin: 10px 0;">Intermediate</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div style="flex-basis:31%; background: #fff3f3; border-radius: 50px; margin-bottom: 5%; padding: 20px 12px; box-sizing: border-box;">
+            <h3>Degree</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div style="flex-basis:31%; background: #fff3f3; border-radius: 50px; margin-bottom: 5%; padding: 20px 12px; box-sizing: border-box;">
+            <h3>Post Graduation</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+</section>
+<section style="width: 80%; margin: auto; text-align: center; padding-top: 50px;">
+    <h1>OUR Global Campus</h1>
+    <p>There are many of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+    <div>
+        <div style="flex-basis: 32%; border-radius: 10px; margin-bottom: 30px; position: relative; overflow: hidden;">
+            <img src="images/NIK.JPG" style="width: 25%">
+            <div >
+                <h3 style="width: 100%; font-weight: 500; color: #fff; font-size: 26px; bottom: 0; left: 50%; transform: translatex(-50%); position: absolute;">BAHIRDAR</h3>
+            </div>
+        </div>
+        <div style="flex-basis: 32%; border-radius: 10px; margin-bottom: 30px; position: relative; overflow: hidden;">
+            <img src="images/JIMMA.jpg" style="width: 25%">
+            <div >
+                <h3 style="width: 100%; font-weight: 500; color: #fff; font-size: 26px; bottom: 0; left: 50%; transform: translatex(-50%); position: absolute;"
+     >JIMMA</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<!--- javascript for toggle menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
